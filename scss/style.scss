@@ -1,5 +1,4 @@
 @import "./_variables.scss";
-@import "./_header.scss";
 
 html {
   font-size: 62.5%;
@@ -10,19 +9,22 @@ html {
 
 body {
 background-color: color(background);
+font-family: 'PT Serif', serif;
 }
 
   .flex-parent-1 {  
-  
   background-color: color(primary);
-
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: row;
 }
 
 .flex-parent-2 {  
   position: relative;
   margin: 0 auto;
   top: 5rem;
-  background-color: color(secondary);
+  background-color: color(primary);
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -31,23 +33,39 @@ background-color: color(background);
 
 
 .flex-child-1 {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  flex-direction: row;
   height: 40rem;
-  width: 190rem;
-
+  width: 190rem; 
 }
 
+.flex-child-2 {
+margin: 1rem;
+display: flex;
+flex-direction: row;
+align-items: center;
+height: 80rem;
+width: 190rem;
+
+}
 
 #header-text {
 color: color(secondary);
-font-family: 'Lobster', cursive;
+text-align: center;
+}
+
+#paragraph-text {
+color: color(secondary-variant);
+text-align: center;
+}
+ 
+#images-right {
+display: flex;
+flex-direction: row;
+align-items: center;
+justify-content: space-around;
+background-color: color(secondary);
 }
 
 
-  
 #photo-1 {
 height: 30rem;
 display: flex;
@@ -56,13 +74,27 @@ display: flex;
 #photo-2 {
   height: 30rem;
   display: flex;
-}
-  
-#photo-3 {
+  }
+
+  #photo-3 {
     height: 30rem;
     display: flex;
-}
+    }
+    
+    #photo-4 {
+      height: 15rem;
+      display: flex;
+      }
       
+      #photo-5 {
+        height: 15rem;
+        display: flex;
+        }
+      
+        #photo-6 {
+          height: 15rem;
+          display: flex;
+          }
 
 h1 {
 font-size: 5rem;
