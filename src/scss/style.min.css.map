@@ -2,7 +2,7 @@
     "version": 3,
     "mappings": "AAAA,AAAA,IAAI,AAAA,CACA,gBAAgB,CAAE,GAAG,CACxB",
     "sources": [
-        "../../scss/style.scss"
+        "style.scss"
     ],
     "names": [],
     "file": "style.min.css"
