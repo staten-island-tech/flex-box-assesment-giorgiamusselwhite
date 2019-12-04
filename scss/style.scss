@@ -1,17 +1,21 @@
+@import "./_variables.scss";
+@import "./_header.scss";
+
 html {
   font-size: 62.5%;
   padding: 0;
   margin: 0;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 body {
-  background-color: #f6b93b;
-  color: #eb2f06;
-}
+background-color: color(primary);
+color: color(secondary);
 
-/*.flex-parent {
+
+} 
+
+  /*.flex-parent {
     
     display: flex;
     height: 60vh;
@@ -20,9 +24,9 @@ body {
 }
   }
 */
+
 /*.header-text {
 
 
  }
 */
-/*# sourceMappingURL=style.css.map */
