@@ -18,29 +18,35 @@ background-color: color(background);
   justify-content: space-evenly;
   flex-direction: row;
   background-color: color(primary);
-  font-family: 'Lobster', cursive;
+  
 }
 
-/*.flex-child{
-
-
+.flex-child{
+background-color: color(primary-variant);
+height: 30vh;
+display: flex;
+justify-content: space-evenly;
+flex-direction: row;
 }
-*/
+
 
 
 #header-text {
 color: color(secondary);
+font-family: 'Lobster', cursive;
 }
 
+#flex-grow-1 {
+height: 30vh;
+
+}
 
 h1{
 font-size: 5rem;
-
 }
 
 h2 {
 font-size: 2rem;
-
 }
 
 /*#flex-grow-1 {
