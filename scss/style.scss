@@ -14,8 +14,8 @@ background-color: color(background);
 
   .flex-parent {  
   display: flex;
-  height: 100vh;
   justify-content: space-evenly;
+  align-items: center;
   flex-direction: row;
   background-color: color(primary);
   
@@ -23,12 +23,9 @@ background-color: color(background);
 
 .flex-child{
 background-color: color(primary-variant);
-height: 30vh;
-display: flex;
-justify-content: space-evenly;
-flex-direction: row;
+height: 10rem;
+width: 200rem;
 }
-
 
 
 #header-text {
@@ -37,9 +34,25 @@ font-family: 'Lobster', cursive;
 }
 
 #flex-grow-1 {
-height: 30vh;
-
+height: 30rem;
+display: flex;
+justify-content: space-around;
+align-items: flex-start;
+flex-direction: row;
 }
+
+#photo-1 {
+height: 30rem;
+}
+
+#photo-2 {
+  height: 30rem;
+  }
+
+#photo-3 {
+  height: 30rem;
+  }
+     
 
 h1{
 font-size: 5rem;

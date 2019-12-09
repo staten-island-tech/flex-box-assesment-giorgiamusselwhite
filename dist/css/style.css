@@ -14,10 +14,12 @@ body {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  height: 100vh;
   -webkit-box-pack: space-evenly;
       -ms-flex-pack: space-evenly;
           justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
@@ -27,26 +29,41 @@ body {
 
 .flex-child {
   background-color: #e58e26;
-  height: 30vh;
+  height: 10rem;
+  width: 200rem;
+}
+
+#header-text {
+  color: #eec68a;
+  font-family: 'Lobster', cursive;
+}
+
+#flex-grow-1 {
+  height: 30rem;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: space-evenly;
-      -ms-flex-pack: space-evenly;
-          justify-content: space-evenly;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
 }
 
-#header-text {
-  color: #eb2f06;
-  font-family: 'Lobster', cursive;
+#photo-1 {
+  height: 30rem;
 }
 
-#flex-grow-1 {
-  height: 30vh;
+#photo-2 {
+  height: 30rem;
+}
+
+#photo-3 {
+  height: 30rem;
 }
 
 h1 {
