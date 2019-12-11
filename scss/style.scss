@@ -18,9 +18,15 @@ background-color: color(background);
   
 }
 
-.flex-child{
-background-color: color(primary-variant);
+.flex-child {
+  background-color: color(primary-variant);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: row;
+
 }
+
 
 
 #header-text {
@@ -31,11 +37,17 @@ font-family: 'Lobster', cursive;
 #flex-grow-1 {
 height: 40rem;
 width: 190rem;
-display: flex;
-justify-content: space-around;
-align-items: center;
-flex-direction: row;
+
 }
+
+
+#flex-grow-2 {
+  height: 80rem;
+  width: 190rem;
+  
+  }
+  
+
 
 #photo-1 {
 height: 30rem;

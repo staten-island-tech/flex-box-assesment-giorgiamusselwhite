@@ -16,16 +16,6 @@ body {
 
 .flex-child {
   background-color: #e58e26;
-}
-
-#header-text {
-  color: #eec68a;
-  font-family: 'Lobster', cursive;
-}
-
-#flex-grow-1 {
-  height: 40rem;
-  width: 190rem;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -38,6 +28,16 @@ body {
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
+}
+
+#header-text {
+  color: #eec68a;
+  font-family: 'Lobster', cursive;
+}
+
+#flex-grow-1 {
+  height: 40rem;
+  width: 190rem;
 }
 
 #photo-1 {
