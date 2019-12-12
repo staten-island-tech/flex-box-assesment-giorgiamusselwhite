@@ -12,14 +12,22 @@ body {
 background-color: color(background);
 }
 
-  .flex-parent {  
+  .flex-parent-1 {  
   
   background-color: color(primary);
+
+}
+
+.flex-parent-2 {  
+  position: relative;
+  margin: 0 auto;
+  top: 10rem;
+  background-color: color(secondary);
   
 }
 
-.flex-child {
-  background-color: color(primary-variant);
+
+.flex-child-1 {
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -27,6 +35,28 @@ background-color: color(background);
 
 }
 
+.flex-child-2 {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: row;
+
+}
+
+.flex-child-3 {
+  background-color: white ;
+  position: relative;
+  margin: 0 auto;
+  top: 50rem;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: row;
+  color: color(primary-varient);
+  font-size: 3rem;
+letter-spacing: .4rem;
+
+}
 
 
 #header-text {
@@ -48,6 +78,13 @@ width: 190rem;
   }
   
 
+  #flex-grow-3 {
+    height: 20rem;
+    width: 60rem;
+    
+    }
+    
+  
 
 #photo-1 {
 height: 30rem;
@@ -70,9 +107,5 @@ h2 {
 font-size: 2rem;
 }
 
-/*#flex-grow-1 {
 
-
-}
-*/ 
 

@@ -10,12 +10,18 @@ body {
   background-color: #EE5A24;
 }
 
-.flex-parent {
+.flex-parent-1 {
   background-color: #f6b93b;
 }
 
-.flex-child {
-  background-color: #e58e26;
+.flex-parent-2 {
+  position: relative;
+  margin: 0 auto;
+  top: 10rem;
+  background-color: #eec68a;
+}
+
+.flex-child-1 {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -30,6 +36,42 @@ body {
           flex-direction: row;
 }
 
+.flex-child-2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.flex-child-3 {
+  background-color: white;
+  position: relative;
+  margin: 0 auto;
+  top: 50rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  font-size: 3rem;
+  letter-spacing: .4rem;
+}
+
 #header-text {
   color: #eec68a;
   font-family: 'Lobster', cursive;
@@ -38,6 +80,16 @@ body {
 #flex-grow-1 {
   height: 40rem;
   width: 190rem;
+}
+
+#flex-grow-2 {
+  height: 80rem;
+  width: 190rem;
+}
+
+#flex-grow-3 {
+  height: 20rem;
+  width: 60rem;
 }
 
 #photo-1 {
@@ -59,10 +111,4 @@ h1 {
 h2 {
   font-size: 2rem;
 }
-
-/*#flex-grow-1 {
-
-
-}
-*/
 /*# sourceMappingURL=style.css.map */
