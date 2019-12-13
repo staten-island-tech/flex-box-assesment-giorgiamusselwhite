@@ -21,9 +21,12 @@ background-color: color(background);
 .flex-parent-2 {  
   position: relative;
   margin: 0 auto;
-  top: 10rem;
+  top: 5rem;
   background-color: color(secondary);
-  
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: row;
 }
 
 
@@ -32,29 +35,8 @@ background-color: color(background);
   justify-content: space-around;
   align-items: center;
   flex-direction: row;
-
-}
-
-.flex-child-2 {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  flex-direction: row;
-
-}
-
-.flex-child-3 {
-  background-color: white ;
-  position: relative;
-  margin: 0 auto;
-  top: 50rem;
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  flex-direction: row;
-  color: color(primary-varient);
-  font-size: 3rem;
-letter-spacing: .4rem;
+  height: 40rem;
+  width: 190rem;
 
 }
 
@@ -64,42 +46,25 @@ color: color(secondary);
 font-family: 'Lobster', cursive;
 }
 
-#flex-grow-1 {
-height: 40rem;
-width: 190rem;
 
-}
-
-
-#flex-grow-2 {
-  height: 80rem;
-  width: 190rem;
   
-  }
-  
-
-  #flex-grow-3 {
-    height: 20rem;
-    width: 60rem;
-    
-    }
-    
-  
-
 #photo-1 {
 height: 30rem;
+display: flex;
 }
 
 #photo-2 {
   height: 30rem;
-  }
-
+  display: flex;
+}
+  
 #photo-3 {
-  height: 30rem;
-  }
-     
+    height: 30rem;
+    display: flex;
+}
+      
 
-h1{
+h1 {
 font-size: 5rem;
 }
 
