@@ -53,6 +53,8 @@ body {
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
+  -ms-flex-item-align: center;
+      align-self: center;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -76,6 +78,34 @@ body {
   margin: 2rem;
 }
 
+#paragraph-text-2 {
+  color: #44352b;
+  text-align: center;
+  font-size: 4rem;
+  font-family: 'Rye', cursive;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  max-width: 100rem;
+  margin: 2rem;
+}
+
+.right-box {
+  background-color: #f08141;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-item-align: center;
+      align-self: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  width: 100rem;
+  height: 45rem;
+}
+
 #images-right {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -92,34 +122,19 @@ body {
   background-color: #eec68a;
   width: 90rem;
   height: 20rem;
+  padding: 1rem;
 }
 
-#photo-1 {
+#photo {
   max-height: 30rem;
 }
 
-#photo-2 {
-  max-height: 30rem;
-}
-
-#photo-3 {
-  max-height: 30rem;
-}
-
-#photo-4 {
-  max-height: 15rem;
-}
-
-#photo-5 {
-  max-height: 15rem;
-}
-
-#photo-6 {
+#photo-sm {
   max-height: 15rem;
 }
 
 h1 {
-  font-size: 6rem;
+  font-size: 8rem;
   font-family: 'Rye', cursive;
 }
 
