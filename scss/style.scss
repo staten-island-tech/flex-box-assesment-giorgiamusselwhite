@@ -1,5 +1,6 @@
 @import "./_variables.scss";
 
+
 html {
   font-size: 62.5%;
   margin: 0;
@@ -9,42 +10,34 @@ html {
 
 body {
 background-color: color(background);
-font-family: 'PT Serif', serif;
 }
 
-  .flex-parent-1 {  
+.flex-parent-1 {
   background-color: color(primary);
+  height: 40rem;
   display: flex;
-  justify-content: space-around;
-  align-items: center;
   flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
 }
 
 .flex-parent-2 {  
-  position: relative;
-  margin: 0 auto;
-  top: 5rem;
   background-color: color(primary);
   display: flex;
-  justify-content: space-around;
-  align-items: center;
   flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-around;
+  height: 50rem;
 }
 
-
-.flex-child-1 {
-  height: 40rem;
-  width: 190rem; 
-}
 
 .flex-child-2 {
-margin: 1rem;
+margin: 2rem;
 display: flex;
 flex-direction: row;
 align-items: center;
-height: 80rem;
-width: 190rem;
-
+max-height: 80rem;
+background-color: color(secondary);
 }
 
 #header-text {
@@ -55,6 +48,11 @@ text-align: center;
 #paragraph-text {
 color: color(secondary-variant);
 text-align: center;
+font-size: 3rem;
+font-family: 'Lateef', cursive;
+flex-wrap: wrap;
+max-width: 50rem;
+margin: 2rem;
 }
  
 #images-right {
@@ -63,46 +61,56 @@ flex-direction: row;
 align-items: center;
 justify-content: space-around;
 background-color: color(secondary);
+width: 90rem;
+height: 20rem;
 }
 
 
 #photo-1 {
-height: 30rem;
-display: flex;
+max-height: 30rem;
 }
 
 #photo-2 {
-  height: 30rem;
-  display: flex;
+  max-height: 30rem;
+
   }
 
   #photo-3 {
-    height: 30rem;
-    display: flex;
+    max-height: 30rem;
+ 
     }
     
     #photo-4 {
-      height: 15rem;
-      display: flex;
+      max-height: 15rem;
+    
       }
       
       #photo-5 {
-        height: 15rem;
-        display: flex;
+        max-height: 15rem;
+      
         }
       
         #photo-6 {
-          height: 15rem;
-          display: flex;
-          }
+          max-height: 15rem;
+        
+          }  
 
+          
 h1 {
-font-size: 5rem;
+font-size: 6rem;
+font-family: 'Rye', cursive;
 }
 
 h2 {
-font-size: 2rem;
+font-size: 4.25rem;
+font-family: 'Lateef', cursive;
 }
+
+
+
+
+
+
 
 
 
